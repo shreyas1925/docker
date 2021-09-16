@@ -5,7 +5,7 @@ const app = express();
 require("./conn.js");
 
 app.get("/", (req, res, next) => {
-  res.send("HEYY! I am cinnecting from root page!");
+  res.send("HEYY! I am connecting from root/home page!");
 });
 
 app.listen(5000, () => {
